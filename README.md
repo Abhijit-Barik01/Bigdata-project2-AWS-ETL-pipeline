@@ -1,7 +1,8 @@
-# aws_lambda_functionBigdata-project2-AWS-ETL-pipeline.
+# aws_lambda_function_Bigdata-project2-AWS-ETL-pipeline.
 
-
-
+'''
+AWS-ETL-PROJECT- ARCHITECTURE
+'''
 
 <img width="552" alt="image" src="https://user-images.githubusercontent.com/71961635/219772494-3390ebd5-f87b-4df4-989a-164d136c90c0.png">
 
