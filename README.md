@@ -1,4 +1,13 @@
-# aws_lambda_functionBigdata-project2-AWS-ETL-pipeline
+# aws_lambda_functionBigdata-project2-AWS-ETL-pipeline.
+
+
+
+
+<img width="552" alt="image" src="https://user-images.githubusercontent.com/71961635/219772494-3390ebd5-f87b-4df4-989a-164d136c90c0.png">
+
+
+
+
 
 #FIRST CREATE A  ENVIRONMENT USING CONDA IN VISUAL STUDIO TERMINAL.
 create -p venv python==3.9.12 -y
