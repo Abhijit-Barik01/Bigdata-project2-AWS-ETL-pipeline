@@ -1,17 +1,17 @@
 # aws_lambda_function_Bigdata-project2-AWS-ETL-pipeline.
 
 # About The Project:-
-   I)FETCH DATA FROM API AND STORING DATA IN  S3 BUCKET USING AWS LAMBDA.
+   I) FETCH DATA FROM API AND STORING DATA IN  S3 BUCKET USING AWS LAMBDA.
    
-   II)READ DATA FROM S3 BUCKET USING AWS GLUE
+   II) READ DATA FROM S3 BUCKET USING AWS GLUE
    
-   III)READ DATA FROM DYNAMO DB USING AWS GLUE
+   III) READ DATA FROM DYNAMO DB USING AWS GLUE
    
-   IV)CHECK HOW MANY RECORD AVAILABLE FROM S3 BUCKET AVAILABLE IN DYNAMO DB 
+   IV) CHECK HOW MANY RECORD AVAILABLE FROM S3 BUCKET AVAILABLE IN DYNAMO DB 
    
-   V)STORE UPCOMING NEW RECORDS  IN DYNAMO DB.
+   V) STORE UPCOMING NEW RECORDS  IN DYNAMO DB.
    
-   VI)ARCHIEVE DATA TO OLD DATA OF S3
+   VI) ARCHIEVE DATA TO OLD DATA OF S3
 
 
 
@@ -22,8 +22,8 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![AWS][AWS]][AWS-url]
-* [![PYSPARK][PYSPARK]][PYTHON]
+* AWS
+* PYSPARK 
 
 
 ## Input Configuration For Web Api
