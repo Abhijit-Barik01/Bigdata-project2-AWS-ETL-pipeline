@@ -1,9 +1,10 @@
 # aws_lambda_function_Bigdata-project2-AWS-ETL-pipeline.
 
 ### AWS-ETL-PROJECT- ARCHITECTURE
-
 <img width="552" alt="image" src="https://user-images.githubusercontent.com/71961635/219772494-3390ebd5-f87b-4df4-989a-164d136c90c0.png">
-#  Input Configuration For Web Api
+
+## Input Configuration For Web Api
+
   WEB API ---->FROM_DATE TO TO_DATE WE HAVE TO PASS IN WEB API URL TO FETCH JSON DATTA----> S3 BUCKET
 
 ## FIRST CREATE A CONDA  ENVIRONMENT USING CONDA IN VISUAL STUDIO TERMINAL.
@@ -42,7 +43,7 @@ Collecting pymongo[srv]
 ![image](https://user-images.githubusercontent.com/71961635/219787355-e29dd0fd-3781-47e2-97e5-9b2024415da6.png)
 ![image](https://user-images.githubusercontent.com/71961635/219788372-1294040d-22bd-4c0e-a7e0-b9afe5d81c65.png)
 ## USING URL WE HAVE TO CONNECT MONGODB COMPASS
-![image](https://user-images.githubusercontent.com/71961635/219789144-214e5472-23ab-4ae6-be05-b7de3f39fe30.png)
+![image](https://user-images.githubusercontent.com/71961635/219832395-9f844d93-5c10-4a1f-9690-d0430c513fda.png)
 
 ## CREATE A LAMBDA FUNCION WITH  DownloadData NAME
 ![image](https://user-images.githubusercontent.com/71961635/219828986-6de9fba9-eba3-4531-b2fa-edf4fe6924e6.png)
