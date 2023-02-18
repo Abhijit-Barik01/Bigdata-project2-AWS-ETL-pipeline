@@ -71,13 +71,9 @@ Collecting pymongo[srv]
 
  # CAREFULLY WE HAVE TO PERFORM SOME STEPS:--
    I) READ DATA FROM S3 BUCKET USING AWS GLUE
-   
    II)READ DATA FROM DYNAMO DB USING AWS GLUE
-   
    III)CHECK HOW MANY RECORD AVAILABLE FROM S3 BUCKET AVAILABLE IN DYNAMO DB 
-   
    III)STORE UPCOMING NEW RECORDS  IN DYNAMO DB.
-   
    IV)ARCHIEVE DATA TO OLD DATA OF S3
    
  ## Provisioning Aws Dynamodb
@@ -88,11 +84,8 @@ Collecting pymongo[srv]
  ## CREATE AWS GLUE WITH PYSPARK SCRIPT
  ![gluejob](https://user-images.githubusercontent.com/71961635/219830255-d22c81ae-1a5f-4438-bd34-6bc79cdc6964.png)
  ![gluejob2](https://user-images.githubusercontent.com/71961635/219830265-9216e9ed-1944-44f9-89a4-269b01543d37.png)
- 
- ## POLICY OF AWS GLUE ROLE 
- ![image](https://user-images.githubusercontent.com/71961635/219830538-47a198cc-a78e-43d0-8501-c3e013d8c309.png)
- ## PYSPARK SCRIPT  CODE OF AWS GLUE
-  ```
+
+```
   import sys
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
@@ -170,7 +163,8 @@ logger.info(f"File is successfully archived.")
 os.system(f"aws s3 rm s3://{BUCKET_NAME}/inbox/ --recursive")
     
 job.commit()
-  ```
+
+```
 ## CREATE A Schedule
 ![image](https://user-images.githubusercontent.com/71961635/219830360-3dc826ae-2792-464c-a88e-fb84c8a7cc3b.png)
 
